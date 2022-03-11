@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce simple</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        
+        <div class="nav-center">
+             
+          <!-- nav header -->
+          <div class="nav-header">
+            <p class="logo">my<span>ecommerc</span></p>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>              
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#shop" class="scroll-link">shop</a>
+               
+              </li>
+              <li>
+                <a href="#subscribe" class="scroll-link">contact</a>
+              </li>            
+            </ul>
+          </div>
+          <!--<ul class="nav-top">
+            <li class="nav-top-item"><i class="fas fa-phone-square-alt"></i><span>+387-033-667-3397</span></li>
+            <li class="nav-top-item"><i class="far fa-envelope"></i><span>mail@outlook.com</span></li>
+            <li class="nav-top-item"><i class="fas fa-shopping-cart"></i><span id="num-item">0</span></li>       
+          </ul>-->  
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>simple ecommerce to get started</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eos
+            neque sunt in? 
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">explore tours</a>
+        </div>
+      </div>
+     
+      </header>
+      <section class="button-shop">
+         <div class="container-shop">
+      <!--
+      <button class="filter-btn" type="button" data-id="all">all</button>
+      <button class="filter-btn" type="button" data-id="accessories">accessories</button>
+      <button class="filter-btn" type="button" data-id="hats">hats</button>
+      <button class="filter-btn" type="button" data-id="bags">bags</button>-->      
+    </div>
+      </section>
+    <!-- SHOP--> 
+    <section  class="shop-section">
+      <h2 id="shop">our<span>Shop</span></h2>      
+    
+    </section>
+
+    <!--featured product-->
+    <section id="featured" class="featured-section">
+     <div id ="artical-card" class="card-container">
+       <!-- <article class="menu-item"><a href="" class="product-link">
+          <div class="product-card"><img class="img" src="image/the-aw-creative-digital-marketing-DsKcWDk6NEU-unsplash.jpg" alt="">
+          </div>
+          <div class="product-title">
+            <h4>John Doe</h4>
+            <span class="price">$30</span>
+          </div>
+        </a></article>
+        <article class="menu-item"><a href="" class="product-link">
+            <div class="product-card"><img class="img" src="image/the-aw-creative-digital-marketing-DsKcWDk6NEU-unsplash.jpg"
+                alt="">
+            </div>
+            <div class="product-title">
+              <h4>John Doe</h4>
+              <span class="price">$30</span>
+            </div>
+          </a></article>
+          <article class="menu-item"><a href="" class="product-link">
+              <div class="product-card"><img class="img" src="image/the-aw-creative-digital-marketing-DsKcWDk6NEU-unsplash.jpg"
+                  alt="">
+              </div>
+              <div class="product-title">
+                <h4>John Doe</h4>
+                <span class="price">$30</span>
+              </div>
+            </a></article>-->       
+
+      </div>
+    </section>
+        <!--BRENDS -->
+
+    <section id="brends" class="section-brends">
+      <div class="title">
+        <h2>our<span>brends</span></h2>
+      </div>
+    <div class="our-brends">
+      <div class="logo-brends"><img class="img-logo" src="hat_Logos/airtex-47239.svg" alt="airtex"></div>
+      <div class="logo-brends"><img class="img-logo"src="hat_Logos/brisa-36189.svg" alt="prisa"></div>
+      <div class="logo-brends"><img class="img-logo"src="hat_Logos/broadband-1.svg" alt="breoband"></div>
+      <div class="logo-brends"><img class="img-logo"src="hat_Logos/iaff.svg" alt="iaff"></div>
+      <div class="logo-brends"><img class="img-logo"src="hat_Logos/usa-softball.svg" alt="zumiez"></div>
+      <div class="logo-brends"><img class="img-logo"src="hat_Logos/copernic-2000-plus.svg" alt="copernic"></div>
+
+    </div>
+    </section>
+    <!--SUSCRIBE -->
+
+<section id="subscribe" class="section-subscribe">
+  <div class="title">
+    <h2>sign<span> up</span></h2>
+  </div>
+    <div class="form-block">    
+      <form id="form-email" class="form" action="#" name="email-form" metod="get">
+      <label for="sign-up">Sign up to our mailing list</label>
+      <input id="sign-up" type="email" class="text-field" name ="sign up" placeholder="Your email address" data-name="sign up" required>
+      <input type="button" value="Sign up" data-wait="Please wait" class="submit-button">
+      </form>
+    </div>
+  
+</section>
+
+    <!-- footer--> 
+    <footer id ="footer" class="section-footer">
+      <p>
+        copyright &copy; bidzevics
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
