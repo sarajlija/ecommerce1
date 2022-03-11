@@ -176,8 +176,8 @@ function diplayMenuItems(menuItems) {
     // console.log(item);
 
     return `<article class="menu-item">
-      <div class="product-card"><a href="#" class="product-link"><img class="img" src="${item.img}" alt="${item.title}"></a>
-      </div>
+      <a href="#" class="product-link"><img class="img" src="${item.img}" alt="${item.title}" style="width:100%; height:33vh"></a>
+      
       <div class="product-title">
         <h4>${item.title}</h4>
         <span class="price">$${item.price}</span>
